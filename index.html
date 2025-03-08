@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz dia da Mulher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <h1>
+        <img width="64" height="64" src="https://img.icons8.com/dusk/64/flower.png" alt="flower"/>
+         Feliz dia da Mulher
+        <img width="64" height="64" src="https://img.icons8.com/dusk/64/flower.png" alt="flower"/>
+    </h1>
+
+   <div class="carrossel-container">
+    <div class="carrossel" id="carrossel">
+        <img src="img/5.jpg" alt="img 01" onclick="showMessage(0)">
+        <img src="img/7.jpg" alt="img02" onclick="showMessage(1)">
+        <img src="img/8.jpg" alt="img03" onclick="showMessage(2)">
+        <img src="img/10.jpg" onclick="showMessage(3)">
+    </div>
+
+    <audio src="" autoplay loop></audio>
+
+    <div class="buttons">
+        <button class="btn" onclick="prevSlide()">&#10094;</button>
+        <button class="btn" onclick="nextSlide()">&#10095;</button>
+    </div>
+   </div>
+
+   <p class="message" id="message">
+        Feliz dia da Mulher, Meu Amor 
+    </p>
+    <div class="present">
+        <img src="img/presente.png" alt="presente" class="present">
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
